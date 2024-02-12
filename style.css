@@ -7,3 +7,14 @@
     background-color: rgba(255, 224, 229, 0.386);
   }
 }
+
+#sewa {
+  background-color: lightsalmon;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 992px) {
+  #sewa {
+    background-color: blue;
+  }
+}
