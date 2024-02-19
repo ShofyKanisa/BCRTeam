@@ -21,7 +21,7 @@
               <a class="nav-link text-dark" href="#">Testimonial</a>
               <a class="nav-link text-dark" href="#">FAQ</a>
               <a class="nav-link text-white rounded" href="#">
-                <button class="btn text-white" style="background-color: #67c58b">Register</button>
+                <button class="btn text-white" style="background-color: #67c58b" onclick="swal ('Tidak bisa Register!' ,  'Coba lagi nanti' ,  'error')">Register</button>
               </a>
             </div>
             <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" aria-controls="navContentTop">
@@ -230,7 +230,8 @@
         function myAlert() {
           Swal.fire({
             icon: "error",
-            title: "Sewa mobil tidak berhasil!",
+            title: "Akun tidak tersedia",
+            text: "Buatlah akun",
             showConfirmButton: false,
             timer: 1500,
           });
